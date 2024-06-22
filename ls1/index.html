@@ -1,0 +1,54 @@
+<!-- 
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="root">
+    <div class="task-box">
+        <button id="button-task-1">Task 1</button>
+        <p>
+            1) Дан массив const arr = [1, 5, 7, 9] с помощью Math.min и spread оператора, найти минимальное число в
+            массиве, решение задание должно состоять из одной строки
+        </p>
+        <div class="result"></div>
+    </div>
+
+    <div class="task-box">
+        <button id="button-task-2">Task 2</button>
+        <p>
+            2) Напишите функцию createCounter, которая создает счетчик и возвращает объект с двумя методами: increment и
+            decrement. Метод increment должен увеличивать значение счетчика на 1, а метод decrement должен уменьшать
+            значение счетчика на 1. Значение счетчика должно быть доступно только через методы объекта, а не напрямую.
+        </p>
+        <div class="result"></div>
+    </div>
+
+    <div class="task-box">
+        <button id="button-task-3">Task 3</button>
+        <p class="my-class">
+            3) Напишите рекурсивную функцию findElementByClass, которая принимает корневой элемент дерева DOM и название
+            класса в качестве аргументов и возвращает первый найденный элемент с указанным классом в этом дереве.<br>
+            Пример<br>
+            const rootElement = document.getElementById('root');<br>
+            const targetElement = findElementByClass(rootElement, 'my-class');<br>
+            console.log(targetElement);<br>
+        </p>
+        <div class="result"></div>
+    </div>
+
+    <script src="./t1-math-spread.js"></script>
+    <script src="./t2-create-counter.js"></script>
+    <script src="./t3-recursion.js"></script>
+
+</body>
+
+</html>
